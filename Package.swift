@@ -19,7 +19,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "llama-cpp",
-            path: "Binaries/llama-cpp/llama-b8300-xcframework"
+            path: "Binaries/llama-cpp/llama-b8300-xcframework/build-apple/llama.xcframework"
         ),  
         .target(
             name: "LlamaSwift",
